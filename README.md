@@ -7,6 +7,7 @@ Relies on 2 actions:
   Any opened actions will be added to the configured project.
 - [issue-link](https://github.com/marketplace/actions/add-an-issue-link)  
   For any branch that starts with the prefix `issue-<number>`, the corresponding PR's text description will be automatically edited to link it to an existing issue.  
+  _Note: linking the PR to the issue could actually be achieve manually like [this](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) too._
   
 
 ## Configuration
