@@ -12,4 +12,4 @@ jobs:
       - uses: actions/add-to-project@v0.3.0
         with:
           project-url: https://github.com/users/r1oga/projects/4 # https://github.com/<orgs|users>/<orgName|userName>/projects/<projectNumber>
-          github-token: ${{ secrets.TOKEN }}
+          github-token: ${{ secrets.TOKEN }} # specific access token different from GITHUB_TOKEN required (see https://github.com/marketplace/actions/add-to-github-projects#creating-a-pat-and-adding-it-to-your-repository)
