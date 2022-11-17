@@ -2,10 +2,10 @@
 Repository with actions to automatically groom a project board.
 
 Relies on 2 actions:
-- [add-to-project]()  
+- [add-to-project](https://github.com/r1oga/repo-project-template/blob/main/.github/workflows/add-to-project.yml)  
   Based on [this marketplace action](https://github.com/marketplace/actions/add-to-github-projects).  
   Any opened actions will be added to the configured project.
-- [issue-link](https://github.com/marketplace/actions/add-an-issue-link)  
+- [issue-link](https://github.com/r1oga/repo-project-template/blob/main/.github/workflows/issue-link.yml)  
   Based on [this marketplace action](https://github.com/marketplace/actions/add-an-issue-link).  
   For any branch that starts with the prefix `issue-<number>`, the corresponding PR's text description will be automatically edited to link it to an existing issue.  
   _Note: linking the PR to the issue could actually be achieved manually like [this](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue) too._
